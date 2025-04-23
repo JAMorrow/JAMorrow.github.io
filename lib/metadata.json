@@ -1,12 +1,15 @@
 {
   "vaultName": "JAMorrow",
-  "lastExport": 1745446583272,
+  "lastExport": 1745448522430,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon ctp-latte ctp-mocha ctp-accent-rosewater anuppuccin-accent-toggle anp-callout-sleek anp-table-toggle anp-h1-red anp-h2-peach anp-h3-green anp-h4-teal anp-h5-lavender anp-h6-mauve anp-bold-red anp-italic-green anp-highlight-yellow",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
     "pages/Documentation.md",
+    "pages/Generating This Site.md",
+    "pages/GeneratingThisSiteScreen1.png",
+    "pages/GeneratingThisSiteScreen2.png",
     "pages/Software Soft Skills.md",
     "pages/Tech Lead Survival Guide.md",
     "index.md",
@@ -32,7 +35,9 @@
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
     "lib/styles/supported-plugins.css",
-    "lib/styles/main-styles.css"
+    "lib/styles/main-styles.css",
+    "pages/generatingthissitescreen1.png",
+    "pages/generatingthissitescreen2.png"
   ],
   "mainDependencies": [
     "lib/fonts/94f2f163d4b698242fef.otf",
@@ -60,166 +65,199 @@
     "lib/styles/main-styles.css"
   ],
   "fileInfo": {
-    "pages/Documentation.md": {
-      "modifiedTime": 1745446583272,
-      "sourceSize": 2380,
-      "exportedPath": "pages/documentation.html",
-      "dependencies": []
-    },
-    "pages/Software Soft Skills.md": {
-      "modifiedTime": 1745446583272,
-      "sourceSize": 5191,
-      "exportedPath": "pages/software-soft-skills.html",
-      "dependencies": []
-    },
-    "pages/Tech Lead Survival Guide.md": {
-      "modifiedTime": 1745446583272,
-      "sourceSize": 246,
-      "exportedPath": "pages/tech-lead-survival-guide.html",
-      "dependencies": []
-    },
-    "index.md": {
-      "modifiedTime": 1745446583272,
-      "sourceSize": 366,
-      "exportedPath": "index.html",
-      "dependencies": []
-    },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1745446583272,
-      "sourceSize": 2603,
+      "modifiedTime": 1745448522430,
+      "sourceSize": 3705,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 138258,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 272363,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 571,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 239,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1745446583272,
+      "modifiedTime": 1745448522430,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "pages/Generating This Site.md": {
+      "modifiedTime": 1745448522430,
+      "sourceSize": 2938,
+      "exportedPath": "pages/generating-this-site.html",
+      "dependencies": [
+        "pages/generatingthissitescreen1.png",
+        "pages/generatingthissitescreen2.png"
+      ]
+    },
+    "pages/generatingthissitescreen1.png": {
+      "modifiedTime": 1745448522430,
+      "sourceSize": 126894,
+      "exportedPath": "pages/generatingthissitescreen1.png",
+      "dependencies": []
+    },
+    "pages/generatingthissitescreen2.png": {
+      "modifiedTime": 1745448522430,
+      "sourceSize": 169076,
+      "exportedPath": "pages/generatingthissitescreen2.png",
+      "dependencies": []
+    },
+    "pages/Documentation.md": {
+      "modifiedTime": 1745448522430,
+      "sourceSize": 2380,
+      "exportedPath": "pages/documentation.html",
+      "dependencies": []
+    },
+    "pages/GeneratingThisSiteScreen1.png": {
+      "modifiedTime": 1745448522430,
+      "sourceSize": 126894,
+      "exportedPath": "pages/generatingthissitescreen1.png",
+      "dependencies": []
+    },
+    "pages/GeneratingThisSiteScreen2.png": {
+      "modifiedTime": 1745448522430,
+      "sourceSize": 169076,
+      "exportedPath": "pages/generatingthissitescreen2.png",
+      "dependencies": []
+    },
+    "pages/Software Soft Skills.md": {
+      "modifiedTime": 1745448522430,
+      "sourceSize": 5191,
+      "exportedPath": "pages/software-soft-skills.html",
+      "dependencies": []
+    },
+    "pages/Tech Lead Survival Guide.md": {
+      "modifiedTime": 1745448522430,
+      "sourceSize": 246,
+      "exportedPath": "pages/tech-lead-survival-guide.html",
+      "dependencies": []
+    },
+    "index.md": {
+      "modifiedTime": 1745448522430,
+      "sourceSize": 391,
+      "exportedPath": "index.html",
       "dependencies": []
     }
   }
