@@ -1,4 +1,6 @@
-## Hi there 👋
+## Github Pages for Jennifer Morrow
+
+You are at the source code for https://jamorrow.github.io/.  You probably want that page instead of this one.
 
 <!--
 **JAMorrow/JAMorrow** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
